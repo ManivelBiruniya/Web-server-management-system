@@ -2,7 +2,7 @@
 public abstract class Server {
 
     protected String serverName;
-    protected String status;   // "RUNNING" or "STOPPED"
+    protected String status;   
     protected long uptimeSeconds;
 
     public Server(String serverName) {
