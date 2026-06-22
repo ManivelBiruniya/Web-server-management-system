@@ -3,11 +3,7 @@ import java.util.List;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * LogManager - stores and manages activity / error / audit logs.
- * Demonstrates ENCAPSULATION: the internal log list is private,
- * only accessible through addLog(), displayLogs(), searchLogs().
- */
+
 public class LogManager {
 
     private List<String> logs;
